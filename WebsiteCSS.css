@@ -1,0 +1,401 @@
+@font-face {
+    font-family: Pizza;
+    src: url(Fonts/PIZZADUDEBULLETS.ttf);
+}
+
+
+@font-face {
+    font-family: Open;
+    src: url(Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Openl;
+    src: url(Fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenB;
+    src: url(Fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url(Fonts/DancingScript.ttf);
+}
+
+@font-face {
+    font-family: RobotoB;
+    src: url(Fonts/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(Fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Robotolight;
+    src: url(Fonts/Roboto-Light.ttf);
+}
+
+.nav-button {
+    color: black;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-button:hover {
+    color: grey;
+    background-color: lightgrey;
+}
+
+.nav-bar {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: RobotoBlack;
+    color: black;
+    display: inline;
+}
+
+h2 {}
+
+.fullscreen {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.Button1 {
+    border-style: solid;
+    margin-left: 27%;
+    margin-top: 2%;
+    /*fix this later*/
+    background-color: #ff303f;
+    padding: 10px;
+    border-radius: 2px;
+    border-width: 0px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    z-index: 2;
+}
+
+.Button2 {
+    border-style: solid;
+    margin-left: 28%;
+    margin-top: 1%;
+    /*fix this later*/
+    background-color: #ff303f;
+    padding: 10px;
+    border-radius: 2px;
+    border-width: 0px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    z-index: 2;
+}
+
+/*padding don't work for some strange reason*/
+
+.Button1:hover {
+    color: lightgrey;
+    background-color: #ee535c;
+}
+
+.Button2:hover {
+    color: lightgrey;
+    background-color: #ee535c;
+}
+
+#Maintext {
+    margin-left: 20%;
+    font-size: 270%;
+    font-family: RobotoBlack;
+}
+
+#Maintext2 {
+    margin-left: 23%;
+    font-size: 270%;
+    font-family: RobotoBlack;
+}
+
+#Subheading {
+    margin-top: 12%;
+    margin-left: 27%;
+    font-size: 100%;
+    font-family: Robotolight;
+}
+
+
+/*putting the thing in the inside makes it work better than in the first acrusel div*/
+
+
+.Part1 {
+    display: inline-block;
+    background-color: white;
+    margin-left: 18%;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.Part2 {
+    display: inline-flex;
+    margin-left: 18%;
+}
+
+.Part3 {
+    display: inline-block;
+    background-color: white;
+    margin-left: 18%;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+
+
+.textSmall {
+    font-family: Open;
+    font-size: 13px;
+    color: gray;
+}
+
+.textSmalls {
+    display: inline;
+    font-family: Open;
+    font-size: 13px;
+    color: gray;
+}
+
+
+.Star {
+    font-family: Pizza;
+    font-size: 13px;
+    color: #ff303f;
+    margin-bottom: 8px;
+}
+
+.Price {
+    font-size: 18px;
+    font-family: OpenB;
+}
+
+.largeText {
+    font-size: 14px;
+    font-family: RobotoBold;
+}
+
+.Carousel2 {
+    width: 218px;
+    margin-bottom: 20px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: calc(100.5% - 2px);
+}
+
+.dropbtn {
+    font-family: Prata, sans-serif;
+    font-size: 150%;
+    border: 4px solid #FFF5C4;
+    color: white;
+    border-radius: 10px;
+    background-color: #DFAC6A;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    width: calc(100.5% - 2px);
+    display: inline-block;
+    transition: 0.2s;
+
+}
+
+/*
+
+
+.Billboardsubtext{
+font-size: 35px;
+ margin-top: 15px;
+ margin-left: 285px;
+}
+*/
+
+.Billboardtext {
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 350px;
+    font-family: Dancing;
+}
+
+
+.Billboardsubtext {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 285px;
+}
+
+.Dotbutt {
+    font-family: Pizza;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.Title {
+    display: inline;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 50px;
+    font-family: RobotoBlack;
+    margin-top;
+    20px;
+}
+
+.nav-button {
+    font-family: OpenB;
+    font-size: 13px;
+}
+
+.Bigtext {
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: RobotoBlack;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.Icon {
+    width: 40px;
+    height: auto;
+    margin: 20px;
+}
+
+.littleicons {
+    width: auto;
+    height: 18px;
+    margin: 10px;
+}
+
+.littleicons:hover {
+    opacity: 0.75;
+    background-color: lightgray;
+}
+
+.Socicons {
+    position: absolute;
+    width: 40px;
+    height: auto;
+}
+
+.Sociconshidden {
+    position: relative;
+    width: 40px;
+    height: auto;
+    opacity: 0;
+}
+
+.Classbuttons {
+    display: inline;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.Bigpic {
+    margin-top: 10px;
+}
+
+.Partfinal {
+    margin-bottom: 100px;
+}
+
+.Footergrad {
+    background-image: linear-gradient(to right, #e7ded5, #fbf2eb, #e7ded5);
+}
+
+.endBox {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.playButtons {
+    text-align: left;
+    padding: 8px;
+    width: 150px;
+    height: auto;
+    display: inline;
+    border-style: none;
+}
+
+.playButtons:hover {
+    background-color: #ff303f;
+    color: white;
+}
+
+.buttonicons {
+    position: absolute;
+    width: auto;
+    height: 25px;
+    float: left;
+    margin: 5px;
+}
+
+.buttoniconsfloat {
+    position: relative;
+    width: auto;
+    height: 25px;
+    float: left;
+    margin: 5px;
+    opacity: 0;
+}
+
+.buttonsBig {
+    font-family: RobotoBold;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.buttonssmall {
+    font-family: Robotolight;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.card {
+    background-color: white;
+}
+
+.card:hover {
+    background-color: lightgrey;
+}
+
+
+a {
+    opacity: 0;
+}
+
+.LinkOp {
+    opacity: 1;
+}
